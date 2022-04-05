@@ -26,6 +26,11 @@ Expense growth was assumed to grow at its 5 year average of 6.9%. The above resu
 
 > A more detailed breakdown can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Naive%20Model%20Forecast.jpg)
 
+As seen above, the projected net present value of all future cash flows is a profit of 6.43 billion doubloons.
+
+#### Comprehensive Model
+The comprehensive model utilised several simple linear regression models to assist in forecasting per capita matchday and commercial revenue. Broadcast revenue was assumed to grow in line with its previous 5 year average and expense growth was once again assumed to remain at 6.9% per year.
+
 
 
 
