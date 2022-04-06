@@ -7,7 +7,7 @@ This approach was chosen as there were no distinct response variables that could
 
 The process for how the statistics were normalised and how the skill index was produced can be found [here](Modelling_Skill_Metric.R).
 
-![picture](Tackle_Nation_Level_Graph.png)
+![picture](Tackle_Graph_Nation_Level.png)
 
 The code begins by reading in all the data, normalising each relevant statistic, producing the individual skill area scores by position and then finally creating the total skill metric score. [DO WE WANT AN EXPLANATION OF THE CODE???]
 
