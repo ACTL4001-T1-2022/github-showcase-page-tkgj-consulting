@@ -52,3 +52,14 @@ These projections were combined alongside the assumptions regarding broadcast an
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Comprehensive%20Model%20Summary.JPG)
 
 > A more detailed breakdown of [commercial](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Comprehensive%20Model%20Commercial%20Revenue%20Forecast.jpg), [matchday](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Comprehensive%20Model%20Matchday%20Revenue%20Forecast.jpg) and [broadcast](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Comprehensive%20Model%20Broadcast%20Revenue%20Forecast.jpg) revenues and a total revenue/expense breakdown can be found [here](https://github.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/blob/main/Comprehensive%20Model%20Forecast.jpg)
+
+As seen above, the projected net present value of all future cash flows is a profit of 5.14 billion doubloons.
+
+> The comprehensive model's forecasts were used when considering financial decisions in the implementation plan.
+
+Explosive increases in per capita matchday and commercial revenue following Rarita's projected success of attaining a rank of 8.2 are the main drivers of the 5.14 billion profit figure. In terms of economic impact, the following three industries will be most impacted:
+* Sport: the improvement of Rarita’s football ranking is expected to increase general interest in football and act as a source of inspiration for younger generations. In countries where football is extremely popular, such as England, football has contributed over 100,000 jobs and ∂3.4 billion to GDP
+* Construction: the building of new training facilities and stadiums (discussed in implementation plan) will require tradesmen, engineers and architects alongside managers
+* Tourism: 2.9 million foreign tourists visited Russia for their 2018 World Cup and similar numbers could be expected should Rarita successfully bid for the hosting of a future tournament. Their presence would indirectly impact other industries such as food, accommodation, transport etc 
+
+In terms of impact on Rarita’s provinces, it is likely that growth in the above industries will lead to GDP and income growth. Studies have also shown that growth in football has a positive social impact on crime figures, with an SROI model estimating that an individual who is likely to commit a crime will see a 15% reduction in this likelihood if they play football. This is especially likely to impact the Western Rarita province which has a lower income level but higher population density, a combination that generally leads to high crime rates. Targeted scholarship programs for underprivileged children to attend training facilities will also be utilised in the Central and Western Rarita regions to help bridge the gap with the wealthier East. 
