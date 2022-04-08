@@ -29,3 +29,6 @@ Key findings include:
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Attendance.jpg)
 
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Social%20Media%20Table.JPG)
+
+* Annual GDP and revenue had a correlation coefficient of 0.43. Scatter Plot can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/GDP%20Revenue%20Scatter.png).
+* Social media followers and commercial revenue had a correlation coefficient of 0.82. Scatter Plot can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Social%20Media%20Commercial%20Scatter%20Plot.png).
