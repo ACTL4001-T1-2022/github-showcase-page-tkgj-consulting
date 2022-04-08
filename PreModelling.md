@@ -32,3 +32,14 @@ Key findings include:
 
 * Annual GDP and revenue had a correlation coefficient of 0.43. Scatter Plot can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/GDP%20Revenue%20Scatter.png).
 * Social media followers and commercial revenue had a correlation coefficient of 0.82. Scatter Plot can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Social%20Media%20Commercial%20Scatter%20Plot.png).
+
+* Raritan football profitability is quite low compared to various other nations.
+
+![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Profit%20by%20Country.png)
+
+* When assessing the number of players to select for each position (based off competitiveness of other nations), the optimal numbers were determined to be:
+  * 2 goalkeepers
+  * 8-9 defenders
+  * 8 midfielders
+  * 7 forwards
+> A breakdown of how these optimal numbers were determined can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Optimal%20Player%20Numbers.JPG).
