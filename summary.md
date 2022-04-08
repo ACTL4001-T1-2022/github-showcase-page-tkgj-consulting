@@ -1,3 +1,6 @@
+![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/CoverPage.png)
+
+
 # Welcome to the TKGJ Consulting Repository, which explores the journey undertaken to select the new, successful Raritan Football team.
 ---
 
