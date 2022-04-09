@@ -5,7 +5,7 @@ The second metric used, named the Popularity Index, evaluated how famous the pla
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/PopularityFactors.png)
 
 Once relevant data was found and divided by player, everyone was ranked according to the separate factors. These ranks were then standardised by their mean and population standard deviation. Country data was assigned to players of that nation, e.g. Nganion players have equivalent social media scores. Finally, the average of all the standardised scores was taken, resulting in the final Popularity Index. 
-> A more detailed breakdown can be found The corresponding Excel workbook can be downloaded [here](TKGJ_Consulting_Team_Modeling_of_Indices_and_Selection.xlsx).
+> The following Excel workbook contains detailed analysis of the Popularity Index, dowloadable [here](TKGJ_Consulting_Team_Modeling_of_Indices_and_Selection.xlsx). Relevant data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
 
 ### Wellbeing Index
 
@@ -14,3 +14,4 @@ Wellbeing was the third key metric applied. Ensuring camaraderie amongst players
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/WellbeingFactors.png)
 
 Similar methodology as the Popularity Index was then applied, in terms of rankings and standardisation. 
+> The following Excel workbook contains detailed analysis of the Wellbeing Index, dowloadable [here](TKGJ_Consulting_Team_Modeling_of_Indices_and_Selection.xlsx). Relevant data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
