@@ -15,4 +15,4 @@ Multiple imputation methods were investigated and attempted. Some, such as the A
 * They required character variables.
 * Time taken to complete the imputation was inordinate. 
 
-The KNN method was deemed most useful, due to appropriate run time and its examination of related values, meaning similar players, which aligns with the nature of the player data.
+The KNN method was deemed most useful, due to appropriate run time and its examination of related values, meaning similar players, which aligns with the nature of the player data (Brownlee, 2020).
