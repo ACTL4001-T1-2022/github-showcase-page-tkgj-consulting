@@ -1,7 +1,5 @@
 ### Data Cleaning
 
-Imputation methods were required to correct datasets that were identified as having missing values. Figures 14 and 15 display missingness. 
-
 Imputation methods were required to correct eight datasets that were identified as having missing values. As demonstrated below, missingness plots were developed to ascertain this, with pink demonstrating the location of incomplete data. 
 
 Tournament data had high percentages of missing values, shown through the following Missingness Maps.
