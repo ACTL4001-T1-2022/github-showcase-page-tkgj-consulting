@@ -32,9 +32,9 @@ Performing this analysis, the statistics below were utilised across each skill a
  Err               |               |                  | 
 > The definitions of these of variables can be explored further [here](Data_Dictionary.xlsx).
 
-Following visual analysis, there were attempts to perform ordinal logistic regression to create this weighted sum skill score approach. Ultimately, this provided mixed results due to these issues found in the visual analysis as it would penalise some good statistics as they would more commonly occur in worse teams. Additionally, the generalisation of a player's skill level based on their team performance would pose the problem of potential biases as worse players may be lucky in a good team or great players may be dragged down by their team's poor performance.
+Initially modelling the Skill Index, there were attempts to perform ordinal logistic regression to create this weighted sum skill score approach. Ultimately, this provided mixed results due to these issues found in the visual analysis as it would penalise some good statistics as they would more commonly occur in worse teams. Additionally, the generalisation of a player's skill level based on their team performance would pose the problem of potential biases as worse players may be lucky in a good team or great players may be dragged down by their team's poor performance.
 
-For the Skill Index, when determining the skill level for each player, a weighted sum approach was used that employed the normalised statistics provided. The coefficients varied for each skill's aspect (shooting, passing, defending, goalkeeping) and position. An additional weighted sum for a total skill score was then calculated to aggregate all data. The coefficients were calculated utilising actuarial judgement, that considered the value of the metric through research and exploratory analysis of the skills stronger teams possessed in the tournaments, e.g. highest weightings were applied to skill success rates; weaker weightings to less desirable features. Some weightings were also applied to metrics that did not necessarily indicate skill but expressed a desirable level of experience as this would prevent selection of players that might have excellent success rates but very low attempts. While someone with low experience may be good, their perfomance may have only been the result of versing worse players or encountering luckir scenarios and would not be able to maintain this performance in the world tournament.
+Following the attempts above, a weighted sum approach that employed the normalised statistics provided was finally chosen to model a player's skill. The coefficients varied for each skill's aspect (shooting, passing, defending, goalkeeping) and position. An additional weighted sum for a total skill score was then calculated to aggregate all data. The coefficients were calculated utilising actuarial judgement, that considered the value of the metric through research and exploratory analysis of the skills stronger teams possessed in the tournaments, e.g. highest weightings were applied to skill success rates; weaker weightings to less desirable features. Some weightings were also applied to metrics that did not necessarily indicate skill but expressed a desirable level of experience as this would prevent selection of players that might have excellent success rates but very low attempts. While someone with low experience may be good, their perfomance may have only been the result of versing worse players or encountering luckir scenarios and would not be able to maintain this performance in the world tournament.
 
 ![image](https://user-images.githubusercontent.com/101073629/162605056-b418bc7a-7271-497b-ac3f-a216ef49009b.png)
 > The table highlights this importance of experience as a pure success rate based metric would select Player 1 but with an experience weighting, it would select Player 2.
@@ -71,13 +71,16 @@ Exploring and analysing the data, there were a number of limitations encountered
 
 * Missing data for some teams resulting in a less comprehensive tournament results data exploration.
 * Missing player data was imputed for modelling, therefore some player scores are only close to true scores.
-* Lack of data recorded around physical traits that could be desirable such height
-* Only two years of player statistics data is available, making it difficult to explore and build a reliable model
+* Lack of data recorded around physical traits that could be desirable such height.
+* Only two years of player statistics data is available, making it difficult to explore and build a reliable model.
 * Over-simplification of data due to aggregating statistics by season and not presenting statistics by game.
-* Limited choices of modelling economic data such as an inability to construct time series due to a lack of years’ worth of data
+* Limited choices of modelling economic data such as an inability to construct time series due to the short timespan of provided economic data.
 
-# Future Outlook (Looking to add a bit more of a self-contained effect “case story, maybe some extra lines of overall thoughts in regard to the project?)
 
+![image](https://user-images.githubusercontent.com/101073629/162607039-5fc8df11-b613-4e5f-9908-e497c531c53a.png)
+
+
+# Future Outlook
 Through utilisation of these recommendations, Rarita should see large improvements in their national football performance, subsequently boosting their economy. This strategy utilised in this project was designed flexibly so that it can be adapted to any new problems or focus areas for team selection that arise. Additionally, new methods of modelling can explored over time that may be found to be more effective as new data is received (such as utilising time series in economic forecasting). Furthermore, the additional remnants of the budget can be allocated to areas such as further training to boost probabilities of winning or new exposure opportunities, compounding the positive effect of popularity on the economy. Thus, Rarita now has a comprehensive plan to establish a world-class football team and host a future World Cup which should reap substantial benefits to its economy.
 
 
@@ -85,6 +88,7 @@ Through utilisation of these recommendations, Rarita should see large improvemen
 
 When conducting analysis to both select the best possible team for Rarita and to evaluate the potential economic impacts, a number of assumptions had to be created to ensure reliable analysis. These assumptions are outlined below:
 * The differences in data statistics between the totals and the sum of their segments is immaterial ranging between 1-2%.
+* The data provided is valid for analysis and there is no further data of Rarita or player performance that can be utilised.
 * A COVID-19 style pandemic existed in this hypothetical and the virus impacted Rarita.
 * A nation's competitive ability can be found from their performance in the world tournament with the top six out of 24 being defined as very competitive.
 * Rarita's national team must have at least six players from the nation of Rarita on the field at all times to eligible for competition due to the 6+5 rule commonly utilised by FIFA since 2008.
