@@ -23,9 +23,13 @@ Extensive pre-modeling analysis allowed for preliminary insights and economic im
 4.2. [ Popularity Index ](#42)
 4.3. [ Wellbeing Index ](#43)
 5. [ Economic Impact ](#5)
-4. [ Modelling Methodology ](#4)
-4. [ Modelling Methodology ](#4)
-4. [ Modelling Methodology ](#4)
+5.1. [ Economic and Population Trends ](#51)
+5.2. [ Forecasting Revenue and Expenses Over the Next 10 Years ](#52)
+6. [ Implementation Plan ](#6)
+7. [ Risks and Ethical Considerations ](#7)
+8. [ Limitations of Analysis ](#8)
+9. [ Future Outlook ](#9)
+10. [ Reference List ](#10)
 
 
 <a name="1"></a>
