@@ -175,43 +175,20 @@ In order to construct the Rarita national team, TKGJ Consulting built a unique m
 ### 4.1. Skill Index
 
 Performing this analysis, the statistics below were utilised across each skill area to create the weighted sums for each player's skill score.              
- Defense           | Passing       |Shooting          | Goalkeeping 
- ----------------- | ------------- |----------------- | -------------------
- Tackles Tkl       | Total Cmp     |Gls               | Playing Time MP
- Tackles TklW      | Total Att     |Standard Sh       | Playing Time Starts
- Tackles Def 3rd   | Total Cmp%    |Standard SoT      | Playing Time Min
- Tackles Mid 3rd   | Total TotDist |Standard SoT%     | Playing Time 90s
- Tackles Att 3rd   | Total PrgDist |Standard Sh/90    | Performance GA
- Vs Dribbles Tkl   | Short Cmp     |Standard SoT/90   | Performance GA90
- Vs Dribbles Att   | Short Att     |Standard G/Sh     | Performance SoTA
- Vs Dribbles Tkl%  | Short Cmp%    |Standard G/SoT    | Performance Saves
- Vs Dribbles Past  | Medium Cmp    |Standard Dist     | Performance Save%
- Pressures Press   | Medium Att    |Standard FK       | W
- Pressures Succ    | Medium Cmp%   |Performance PK    | D
- Pressures %       | Long Cmp      |Performance PKatt | L
- Pressures Def 3rd | Long Att      |Expected xG       | Performance CS
- Pressures Mid 3rd | Long Cmp%     |Expected npxG     | Performance CS%
- Pressures Att 3rd | Ast           |Expected npxG/Sh  | Performance PKatt
- Blocks Blocks     | xA            |Expected G-xG     | Penalty Kicks PKA
- Blocks Sh         | A-xA          |Expected np:G-xG  | Penalty Kicks PKsv
- Blocks ShSv       | KP            |                  | Penalty Kicks PKm
- Blocks Pass       | 1/3           |                  | Penalty Kicks Save%
- Int               | PPA           |                  | 
- Tkl+Int           | CrsPA         |                  | 
- Clr               | Prog          |                  | 
- Err               |               |                  | 
+
+![image](Skill_Variables.png)
 > The definitions of these of variables can be explored further [here](Data_Dictionary.xlsx).
 
 Initially modelling the Skill Index, there were attempts to perform ordinal logistic regression to create this weighted sum skill score approach. Ultimately, this provided mixed results due to these issues found in the visual analysis as it would penalise some good statistics as they would more commonly occur in worse teams. Additionally, the generalisation of a player's skill level based on their team performance would pose the problem of potential biases as worse players may be lucky in a good team or great players may be dragged down by their team's poor performance.
 
 Following the attempts above, a weighted sum approach that employed the normalised statistics provided was finally chosen to model a player's skill. The coefficients varied for each skill's aspect (shooting, passing, defending, goalkeeping) and position. An additional weighted sum for a total skill score was then calculated to aggregate all data. The coefficients were calculated utilising actuarial judgement, that considered the value of the metric through research and exploratory analysis of the skills stronger teams possessed in the tournaments, e.g. highest weightings were applied to skill success rates; weaker weightings to less desirable features. Some weightings were also applied to metrics that did not necessarily indicate skill but expressed a desirable level of experience as this would prevent selection of players that might have excellent success rates but very low attempts. While someone with low experience may be good, their perfomance may have only been the result of versing worse players or encountering luckir scenarios and would not be able to maintain this performance in the world tournament.
 
-![image](https://user-images.githubusercontent.com/101073629/162683760-404c4627-4e22-42c3-87a8-fe084716ae3b.png)
+![image](Experience_Importance_Example.png)
 > The table highlights this importance of experience as a pure success rate based metric would select Player 1 but with an experience weighting, it would select Player 2.
 
 This modelling was used for each skill area with weightings assigned based on the relevance of the statistic for the player, e.g. it is more critical that a forward is making tackles in the attacking third rather than the defending third. Further, many variables were perfectly correlated with each other such as the total tackle count and counts of tackles within each third. Their coefficients were set to account for multi-collinearity. 
 
-![image](https://user-images.githubusercontent.com/101073629/162605232-11a60cf3-fc68-40db-98dd-cf10fd200542.png)
+![image](Collinearity_Graphic.png)
 > The flowchart above showcases the relationship between statistics since tackles in a specific 3rd is just a subset of total tackles, counting both statistics would lead to double counting and accidentally over-emphasising the importance of tackles in defensive statistics.
 
 This approach was chosen as there were no distinct response variables that could be used to model player skill levels other than a team’s tournament performance. Once these scores were created for each skill aspect, they were then added together in an additional weighted sum based on the importance of that aspect for the position such as how forwards need excellent shooting unlike defenders. Players were then ranked by total skill component and its simplicity is valuable due to its allowance for future adjustments as new skills may become more relevant for other matches.
@@ -334,7 +311,7 @@ For the ethics section, each recommendation was considered according to how they
 # 8. Limitations of Analysis
 Exploring and analysing the data, there were a number of limitations encountered that restricted the level of analysis that could be performed. As such, this analysis utilised methods to reduce the effect of these problems but still suffered from a lack of potential. These limitations and their impacts are recorded below:
 
-![image](https://user-images.githubusercontent.com/101073629/162683833-e0bdc041-90d7-4795-a10f-771c1faf5170.png)
+![image](Limitations_Table.png)
 
 <a name="9"></a>
 # 9. Future Outlook
