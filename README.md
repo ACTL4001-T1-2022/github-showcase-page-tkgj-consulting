@@ -10,12 +10,17 @@ Extensive pre-modeling analysis allowed for preliminary insights and economic im
 
 # Table of Contents
 
+1. [ Description. ](#desc)
+2. [ Usage tips. ](#usage)
 
 
 
+test
+test
+test
 
 
-
+<a name="desc"></a>
 # 1. Summary of Team Selection and Tournament Simulation
 
 ### 1.1. Overview of Unique Methodology Employed
