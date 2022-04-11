@@ -352,11 +352,6 @@ cols <- names(data2021_def_90min[, 7:29])
 data2021_def_90min[, (cols) := lapply(.SD, function(d) d/get('X90s')), .SDcols = cols]
 data2021_def_90min <- data2021_def_90min[ X90s > 0.5, ]
 
-
-data2021_gk_90min <- copy(data2021_gk)
-cols <- names(data2021_gk_90min[, 7:28])
-data2021_gk_90min[, (cols) := lapply(.SD, function(d) d/get('X90s')), .SDcols = cols]
-
 normalise(data2021_def,"_def")
 normalise(data2021_shoot,"_shoot")
 normalise(data2021_pass,"_pass")
@@ -366,11 +361,6 @@ norm_master <- merge(norm_def, norm_shoot[, c(2,6:23)], by="Player", all.data=TR
 norm_master <- merge(norm_master, norm_pass[, c(2,6:28)], by="Player", all.data=TRUE)
 #norm_master <- merge(norm_master, norm_gk[, c(2,6:24)], by="Player", all.data=TRUE)
 
-#90 minute version
-norm_master_90min <- merge(norm_def_90min, norm_shoot_90min[, c(2,6:23)], by="Player", all.data=TRUE)
-norm_master_90min <- merge(norm_master_90min, norm_pass_90min[, c(2,6:28)], by="Player", all.data=TRUE)
-#norm_master <- merge(norm_master, norm_gk[, c(2,6:24)], by="Player", all.data=TRUE)
-names(norm_def)
 ##Making positional splits
 norm_def_df <- norm_def[grep("DF", norm_def$Pos),c(1:3,7:29,33)]
 norm_def_gk <- norm_def[grep("GK", norm_def$Pos),c(1:3,7:29,33)]
