@@ -14,10 +14,18 @@ Extensive pre-modeling analysis allowed for preliminary insights and economic im
 1.1. [ Overview of Unique Methodology Employed ](#11)
 1.2. [ Final Team Selection ](#12)
 1.3. [ Tournament Simulation ](#13)
-1.1. [ Overview of Unique Methodology Employed ](#11)
-1.1. [ Overview of Unique Methodology Employed ](#11)
-
-
+2. [ Assumptions ](#2)
+3. [ Pre-Modelling ](#3)
+3.1. [ Exploratory Data Analysis ](#31)
+3.2. [ Data Cleaning ](#32)
+4. [ Modelling Methodology ](#4)
+4.1. [ Skill Index ](#41)
+4.2. [ Popularity Index ](#42)
+4.3. [ Wellbeing Index ](#43)
+5. [ Economic Impact ](#5)
+4. [ Modelling Methodology ](#4)
+4. [ Modelling Methodology ](#4)
+4. [ Modelling Methodology ](#4)
 
 
 <a name="1"></a>
@@ -155,7 +163,7 @@ The KNN method was deemed most useful, due to appropriate run time and its exami
 > The imputed data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
 
 <a name="4"></a>
-# 4. Modelling the data
+# 4. Modelling Methodology
 
 In order to construct the Rarita national team, TKGJ Consulting built a unique model which assigns each player an overall score, based on the aggregation of three key metrics. After determining which players performed best according to the culminated three metrics, judgement was employed to create a holistic approach to team selection. Weightings for each Index were assigned based on prioritising client needs, with Skill at 60% to ensure strong talent, Popularity at 30% to secure revenue and Wellbeing at 10% to encourage camaraderie.
 
