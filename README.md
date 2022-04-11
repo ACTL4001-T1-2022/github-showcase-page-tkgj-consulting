@@ -181,7 +181,7 @@ Initially modelling the Skill Index, there were attempts to perform ordinal logi
 
 Following the attempts above, a weighted sum approach that employed the normalised statistics provided was finally chosen to model a player's skill. The coefficients varied for each skill's aspect (shooting, passing, defending, goalkeeping) and position. An additional weighted sum for a total skill score was then calculated to aggregate all data. The coefficients were calculated utilising actuarial judgement, that considered the value of the metric through research and exploratory analysis of the skills stronger teams possessed in the tournaments, e.g. highest weightings were applied to skill success rates; weaker weightings to less desirable features. Some weightings were also applied to metrics that did not necessarily indicate skill but expressed a desirable level of experience as this would prevent selection of players that might have excellent success rates but very low attempts. While someone with low experience may be good, their perfomance may have only been the result of versing worse players or encountering luckir scenarios and would not be able to maintain this performance in the world tournament.
 
-![image](https://user-images.githubusercontent.com/101073629/162605056-b418bc7a-7271-497b-ac3f-a216ef49009b.png)
+![image](https://user-images.githubusercontent.com/101073629/162683760-404c4627-4e22-42c3-87a8-fe084716ae3b.png)
 > The table highlights this importance of experience as a pure success rate based metric would select Player 1 but with an experience weighting, it would select Player 2.
 
 This modelling was used for each skill area with weightings assigned based on the relevance of the statistic for the player, e.g. it is more critical that a forward is making tackles in the attacking third rather than the defending third. Further, many variables were perfectly correlated with each other such as the total tackle count and counts of tackles within each third. Their coefficients were set to account for multi-collinearity. 
@@ -303,8 +303,7 @@ For the ethics section, each recommendation was considered according to how they
 # Limitations of Analysis
 Exploring and analysing the data, there were a number of limitations encountered that restricted the level of analysis that could be performed. As such, this analysis utilised methods to reduce the effect of these problems but still suffered from a lack of potential. These limitations and their impacts are recorded below:
 
-![image](https://user-images.githubusercontent.com/101073629/162607039-5fc8df11-b613-4e5f-9908-e497c531c53a.png)
-
+![image](https://user-images.githubusercontent.com/101073629/162683833-e0bdc041-90d7-4795-a10f-771c1faf5170.png)
 
 # Future Outlook
 Through utilisation of these recommendations, Rarita should see large improvements in their national football performance, subsequently boosting their economy. This strategy utilised in this project was designed flexibly so that it can be adapted to any new problems or focus areas for team selection that arise. Additionally, new methods of modelling can explored over time that may be found to be more effective as new data is received (such as utilising time series in economic forecasting). Furthermore, the additional remnants of the budget can be allocated to areas such as further training to boost probabilities of winning or new exposure opportunities, compounding the positive effect of popularity on the economy. Thus, Rarita now has a comprehensive plan to establish a world-class football team and host a future World Cup which should reap substantial benefits to its economy.
