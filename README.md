@@ -303,14 +303,6 @@ For the ethics section, each recommendation was considered according to how they
 # Limitations of Analysis
 Exploring and analysing the data, there were a number of limitations encountered that restricted the level of analysis that could be performed. As such, this analysis utilised methods to reduce the effect of these problems but still suffered from a lack of potential. These limitations and their impacts are recorded below:
 
-* Missing data for some teams resulting in a less comprehensive tournament results data exploration.
-* Missing player data was imputed for modelling, therefore some player scores are only close to true scores.
-* Lack of data recorded around physical traits that could be desirable such height.
-* Only two years of player statistics data is available, making it difficult to explore and build a reliable model.
-* Over-simplification of data due to aggregating statistics by season and not presenting statistics by game.
-* Limited choices of modelling economic data such as an inability to construct time series due to the short timespan of provided economic data.
-
-
 ![image](https://user-images.githubusercontent.com/101073629/162607039-5fc8df11-b613-4e5f-9908-e497c531c53a.png)
 
 
