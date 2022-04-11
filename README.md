@@ -240,7 +240,8 @@ The limited years of economic data available for the regions of Rarita meant tha
 
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Table%20of%20Economic%20Trends.JPG)
 
-### Forecasting Revenue and Expenses Over the Next 10 Years
+<a name="52"></a>
+### 5.2. Forecasting Revenue and Expenses Over the Next 10 Years
 Two processes of forecasting the cash flows were considered:
 * A naive model which assumed per capital total revenue growth would follow some function of GDP per capita growth and that expenses would grow at its previous 5 year average.
 * A comprehensive model that forecasted per capita commercial, matchday and broadcast revenue seperately and that expenses would grow at its previous 5 year average.
@@ -294,7 +295,8 @@ Explosive increases in per capita matchday and commercial revenue following Rari
 
 In terms of impact on Rarita’s provinces, it is likely that growth in the above industries will lead to GDP and income growth. Studies have also shown that growth in football has a positive social impact on crime figures, with an SROI model estimating that an individual who is likely to commit a crime will see a 15% reduction in this likelihood if they play football. This is especially likely to impact the Western Rarita province which has a lower income level but higher population density, a combination that generally leads to high crime rates. Targeted scholarship programs for underprivileged children to attend training facilities will also be utilised in the Central and Western Rarita regions to help bridge the gap with the wealthier East. 
 
-# Implementation Plan
+<a name="6"></a>
+# 6. Implementation Plan
 
 The future profits from Raritan football alongside the initial grant allowed for a 10 year implementation plan to be established. The use of the finances include but are not limited to:
 * Marketing
@@ -305,26 +307,29 @@ The future profits from Raritan football alongside the initial grant allowed for
 
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Implementation%20Plan%20Timeline.JPG)
 
-# Risks and Ethical Considerations
+<a name="7"></a>
+# 7. Risks and Ethical Considerations
 
 Below is a brainstorm used to identify events that could potentially affect the results of the team. The major risks discussed in the report were performance risk, expense risk, social media, player scandals and player injuries.
 ![](brainstorm.png)
 
 Sensitivity analysis was performed by changing various assumptions and is available [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Sensitivity.JPG) by one percentage point and by one standard deviation and seeing the resulting impact on projected profit.
 
-### Ethics
 For the ethics section, each recommendation was considered according to how they would affect the main stakeholders. The first two in the table below were discussed in the report as they were the most in need of justification.
 ![](Ethical%20Considerations.png)
 
-# Limitations of Analysis
+<a name="8"></a>
+# 8. Limitations of Analysis
 Exploring and analysing the data, there were a number of limitations encountered that restricted the level of analysis that could be performed. As such, this analysis utilised methods to reduce the effect of these problems but still suffered from a lack of potential. These limitations and their impacts are recorded below:
 
 ![image](https://user-images.githubusercontent.com/101073629/162683833-e0bdc041-90d7-4795-a10f-771c1faf5170.png)
 
-# Future Outlook
+<a name="9"></a>
+# 9. Future Outlook
 Through utilisation of these recommendations, Rarita should see large improvements in their national football performance, subsequently boosting their economy. This strategy utilised in this project was designed flexibly so that it can be adapted to any new problems or focus areas for team selection that arise. Additionally, new methods of modelling can explored over time that may be found to be more effective as new data is received (such as utilising time series in economic forecasting). Furthermore, the additional remnants of the budget can be allocated to areas such as further training to boost probabilities of winning or new exposure opportunities, compounding the positive effect of popularity on the economy. Thus, Rarita now has a comprehensive plan to establish a world-class football team and host a future World Cup which should reap substantial benefits to its economy.
 
-# Reference List
+<a name="10"></a>
+# 10. Reference List
 
 Aitken, A. (2020). “Measuring Welfare Beyond GDP” in National Institute Economic Review, vol. 249, no.1, pp.3-16, doi: https://doi.org/10.1177/002795011924900110 
 
