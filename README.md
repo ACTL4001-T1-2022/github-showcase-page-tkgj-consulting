@@ -317,7 +317,7 @@ Exploring and analysing the data, there were a number of limitations encountered
 # Future Outlook
 Through utilisation of these recommendations, Rarita should see large improvements in their national football performance, subsequently boosting their economy. This strategy utilised in this project was designed flexibly so that it can be adapted to any new problems or focus areas for team selection that arise. Additionally, new methods of modelling can explored over time that may be found to be more effective as new data is received (such as utilising time series in economic forecasting). Furthermore, the additional remnants of the budget can be allocated to areas such as further training to boost probabilities of winning or new exposure opportunities, compounding the positive effect of popularity on the economy. Thus, Rarita now has a comprehensive plan to establish a world-class football team and host a future World Cup which should reap substantial benefits to its economy.
 
-### Reference List
+# Reference List
 
 Aitken, A. (2020). “Measuring Welfare Beyond GDP” in National Institute Economic Review, vol. 249, no.1, pp.3-16, doi: https://doi.org/10.1177/002795011924900110 
 
