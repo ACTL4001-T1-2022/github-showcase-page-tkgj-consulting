@@ -10,25 +10,27 @@ Extensive pre-modeling analysis allowed for preliminary insights and economic im
 
 # Table of Contents
 
-1. [ Description. ](#desc)
-2. [ Usage tips. ](#usage)
+1. [ Summary of Team Selection and Tournament Simulation ](#1)
+1.1. [ Overview of Unique Methodology Employed ](#11)
+1.2. [ Final Team Selection ](#12)
+1.3. [ Tournament Simulation ](#13)
+1.1. [ Overview of Unique Methodology Employed ](#11)
+1.1. [ Overview of Unique Methodology Employed ](#11)
 
 
 
-test
-test
-test
 
-
-<a name="desc"></a>
+<a name="1"></a>
 # 1. Summary of Team Selection and Tournament Simulation
 
+<a name="11"></a>
 ### 1.1. Overview of Unique Methodology Employed
 
 Three metrics (Skill, Popularity and Wellbeing) were constructed to measure player performance. The aggregated three indices were then used to assign players an overall score and the highest ranked players were easily identified. However, other qualitative factors needed to be considered to provide a holistic approach to team selection. As such, judgement was employed finally. Listed below is an overview of the qualitiative factors considered.
 
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/QualitativeFactorsConsidered.png)
 
+<a name="12"></a>
 ### 1.2. Final Team Selection
 
 The 25 selected players, as listed below, assure success for the Raritan team, from both financial and tournament placement perspectives. 
@@ -57,6 +59,7 @@ There is an extensive range of ages within the team.
 
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/AgeRange.png)
 
+<a name="13"></a>
 ### 1.3. Tournament Simulation
 
 To quantify Rarita’s success, a tournament simulation was designed. Averages of the chosen Rarita team’s Skill, Popularity and Wellbeing metrics were calculated, alongside those for other countries. This permitted comparison and thus the calculation of the Raritan expected rank to be 8.2. 
@@ -70,8 +73,8 @@ Rarita’s performance, in terms of the Indices, compared to all other nations i
 ![](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/TournamentWellbeing.png)
 
 
-
-# Assumptions
+<a name="2"></a>
+# 2. Assumptions
 
 When conducting analysis to both select the best possible team for Rarita and to evaluate the potential economic impacts, a number of assumptions had to be created to ensure reliable analysis. These assumptions are outlined below:
 * The differences in data statistics between the totals and the sum of their segments is immaterial ranging between 1-2%.
@@ -80,12 +83,14 @@ When conducting analysis to both select the best possible team for Rarita and to
 * A nation's competitive ability can be found from their performance in the world tournament with the top six out of 24 being defined as very competitive.
 * Rarita's national team must have at least six players from the nation of Rarita on the field at all times to eligible for competition due to the 6+5 rule commonly utilised by FIFA since 2008.
 
-# Pre-Modelling
+<a name="3"></a>
+# 3. Pre-Modelling
 ---
 
 > This section explores the SOA datasets and the relationship between a variety of variables. It also delves into the football players' relative statistics and attempts to deal with data irregularities. The corresponding Excel workbook can be downloaded [here](Pre-Modelling_and_Economic_Analysis.xlsx) and R file [here](insert R file here).
 
-### Exploratory Data Analysis
+<a name="31"></a>
+### 3.1. Exploratory Data Analysis
 
 Key findings include:
 * GDP per capita and population vary greatly by Rarita region.
@@ -126,7 +131,8 @@ Key findings include:
   * 7 forwards
 > A breakdown of how these optimal numbers were determined can be found [here](https://raw.githubusercontent.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/main/Optimal%20Player%20Numbers.JPG).
 
-### Data Cleaning
+<a name="32"></a>
+### 3.2. Data Cleaning
 
 Imputation methods were required to correct eight datasets that were identified as having missing values. As demonstrated below, missingness plots were developed to ascertain this, with pink demonstrating the location of incomplete data. 
 
@@ -148,11 +154,13 @@ The KNN method was deemed most useful, due to appropriate run time and its exami
 > Code used to assess the imputed variables is available [here](Imputation_Code). 
 > The imputed data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
 
-# Modelling the data
+<a name="4"></a>
+# 4. Modelling the data
 
 In order to construct the Rarita national team, TKGJ Consulting built a unique model which assigns each player an overall score, based on the aggregation of three key metrics. After determining which players performed best according to the culminated three metrics, judgement was employed to create a holistic approach to team selection. Weightings for each Index were assigned based on prioritising client needs, with Skill at 60% to ensure strong talent, Popularity at 30% to secure revenue and Wellbeing at 10% to encourage camaraderie.
 
-## Skill metric
+<a name="41"></a>
+### 4.1. Skill Index
 
 Performing this analysis, the statistics below were utilised across each skill area to create the weighted sums for each player's skill score.              
  Defense           | Passing       |Shooting          | Goalkeeping 
@@ -198,7 +206,8 @@ This approach was chosen as there were no distinct response variables that could
 
 > The process for how the statistics were normalised and how the skill index was produced can be found [here](Modelling_Skill_Metric.R).
 
-### Popularity Index
+<a name="42"></a>
+### 4.2. Popularity Index
 
 The second metric used, named the Popularity Index, evaluated how famous the player was on the world stage, which is crucial to increase awareness and thus revenue of the Rarita team. The below table lists all factors considered. 
 
@@ -207,8 +216,8 @@ The second metric used, named the Popularity Index, evaluated how famous the pla
 Once relevant data was found and divided by player, everyone was ranked according to the separate factors. These ranks were then standardised by their mean and population standard deviation. Country data was assigned to players of that nation, e.g. Nganion players have equivalent social media scores. Finally, the average of all the standardised scores was taken, resulting in the final Popularity Index. 
 > The following Excel workbook contains detailed analysis of the Popularity Index, dowloadable [here](TKGJ_Consulting_Team_Modeling_of_Indices_and_Selection.xlsx). Relevant data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
 
-
-### Wellbeing Index
+<a name="43"></a>
+### 4.3. Wellbeing Index
 
 Wellbeing was the third key metric applied. Ensuring camaraderie amongst players is crucial when creating a positive team culture, as individuals can perform better when they genuinely enjoy themselves, trust others and are supported through their own personal and professional growth. The Wellbeing Index was designed to indicate the player’s likelihood of positively contributing to the team’s morale, with all factors listed below. 
 
@@ -217,12 +226,14 @@ Wellbeing was the third key metric applied. Ensuring camaraderie amongst players
 Similar methodology as the Popularity Index was then applied, in terms of rankings and standardisation. 
 > The following Excel workbook contains detailed analysis of the Wellbeing Index, dowloadable [here](TKGJ_Consulting_Team_Modeling_of_Indices_and_Selection.xlsx). Relevant data can be downloaded [here](TKGJ_Consulting_Data.xlsx). 
 
-# Modelling of Economic Impact
+<a name="5"></a>
+# 5. Economic Impact
 ---
 
 > This section outlines how Rarita Football's revenues and expenses were forecasted through an analysis of economic trends and modelling of different types of revenue. The corresponding Excel workbook can be downloaded [here](https://github.com/ACTL4001-T1-2022/github-showcase-page-tkgj-consulting/blob/main/Pre-Modelling%20and%20Economic%20Analysis.xlsx).
 
-### Economic and Population Trends
+<a name="51"></a>
+### 5.1. Economic and Population Trends
 The limited years of economic data available for the regions of Rarita meant that medium-term sample means were taken to forecast the corresponding economic variables. It was assumed over the next 10 years that the economy would behave in line with these averages.
 
 
